@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Updatepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Updateheading {
+    text-align: center;
+    font-family: cursive!important;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  .Updateimg-holder1 {
+    margin: auto;
+    width: 550px!important;
+    height: 412px!important;
+    
+    border:none;
+    margin-top: 1rem;
+  }
+  .Updateimg1 {
+    width: 550px!important;
+    height: 412px!important;
+    object-fit: cover;
+    background-color: white!important;
+  }
+  .TextField {
+    width: 550px;
+  }
+  .TextField{
+      border: black;
+      background-color: white;
+  }
+  
+  #Updateinput[type="file"] {
+    display: none;
+  }
+  .Updatelabel1 {
+    margin: auto;
+    width: 550px!important;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .Updatelabel1 button {
+    width: 550px!important;
+    padding:0%!important;
+    background-color: black;
+    color:white;
+  }
+  .Updatelabel1 button:hover{
+    background-color:wheat;
+    color:black;
+    cursor: pointer;
+  }
+  .Updateimage-upload {
+    /* margin: auto;
+      width: 200px;
+      height: 50px;
+      color: white;
+      border-radius: 10px;
+      background-color: black;
+      justify-content: center;
+      text-align: center;
+      cursor: pointer;
+      padding: 2%; */
+    width: 100%!important;
+  }
+  .UploadPostButton{
+    width:550px!important;
+  }
+  
+  @media only screen and (max-width: 600px){
+    .Updatecontainer{
+      width: 300px;
+      align-items: center!important;
+      justify-content: center!important;
+      text-align: center!important;
+     
+    }
+      
+    .Updateimg-holder1 {
+      margin: auto;
+      width: 300px!important;
+      height: 225px!important;
+      
+      border:none;
+      margin-top: 1rem;
+    }
+    .Updateimg1 {
+      width: 300px!important;
+      height: 225px!important;
+      object-fit: cover;
+    }
+    .TextField{
+      width:300px!important;
+    }
+    .Updatelabel1 {
+      margin: auto;
+      width: 300px!important;
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      
+    }
+    .Updatelabel1 button {
+      width: 300px!important;
+      padding:0%!important;
+      background-color: black;
+      color:white;
+    }
+    .UploadPostButton{
+      width:300px!important;
+    }
+    .Updateheading {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 1rem;
+      font-weight: bold;
+      
+      
+      
+    }
+  
+    
+    }
