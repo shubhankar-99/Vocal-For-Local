@@ -1,0 +1,25 @@
+.ProfileDiv{
+    background-color: rgba(0,0,0,0.9);
+}
+.ProfileHeader{
+    color:wheat;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.ProfileImage{
+    width:350px;
+    border: 3px solid white;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.ProfileName{
+    color:white;
+    font-size: 33px;
+    font-weight: 700;
+}
+.ProfileAge{
+    color:white;
+    font-size: 24px;
+
+}
