@@ -31,6 +31,10 @@ https://youtu.be/JZMniF92sR8
 
 https://vocal-for-locals.herokuapp.com/
 
+## PPT Link
+
+https://drive.google.com/file/d/1weEtUV4r8BpzsqsiEiswUM9hZzmd5q8r/view?usp=sharing
+
 ## Getting Started
 
 npm install 
