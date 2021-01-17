@@ -1,0 +1,26 @@
+.cards {
+    background-color: #000000;
+    
+    background-color: #000000;
+    background-image: linear-gradient(to left, #000111 0%, #5e5368 74%);
+    
+  padding: "1.6rem";
+}
+
+.SideLocation {
+    background-image: linear-gradient(to right, #000000 0%, #5e5368 74%);
+}
+h1{
+    font-family: cursive;
+}
+.MainContainer{
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px){
+    
+    
+    .MainContainer{
+        flex-direction: column-reverse;
+    }
+    }
