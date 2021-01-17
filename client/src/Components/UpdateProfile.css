@@ -1,63 +1,63 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.Updatepage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #faaca8;
+  background-image: linear-gradient(90deg, #faaca8 0%, #ddd6f3 100%);
+}
+h1 {
+  font-family: cursive;
+}
+/* .Updatecontainer{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+  } */
+
+.Updateimg-holder {
+  margin: auto;
+  width: 300px !important;
+  height: 300px !important;
+
+  border-radius: 5px;
+  /* margin-top: 1rem; */
+  margin-top: 40px;
+}
+.Updateimg {
+  width: 300px !important;
+  height: 300px !important;
+  object-fit: cover;
+}
+#Updateinput[type="file"] {
+  display: none;
+}
+.Updatelabel {
+  width: 300px !important;
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  padding: 0 !important;
+}
+.Updatelabel button {
+  width: 300px !important;
+  padding: 0 !important;
+}
+.Updateimage-upload {
+  width: 250px !important;
+  /* height: 50px; */
+}
+
+@media only screen and (max-width: 600px) {
+  .MainContainer {
+    flex-direction: column-reverse;
   }
-  
-  .Updatepage {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    background-color: #faaca8;
-    background-image: linear-gradient(90deg, #faaca8 0%, #ddd6f3 100%);
-  }
-  h1 {
-    font-family: cursive;
-  }
-  /* .Updatecontainer{
-      height: 300px;
-      width: 300px;
-      border-radius: 10px;
-      background-color: rgba(255, 255, 255, 0.5);
-      
-    } */
-  
-  .Updateimg-holder {
-    margin: auto;
-    width: 300px !important;
-    height: 300px !important;
-  
-    border-radius: 5px;
-    /* margin-top: 1rem; */
-    margin-top: 40px;
-  }
-  .Updateimg {
-    width: 300px !important;
-    height: 300px !important;
-    object-fit: cover;
-  }
-  #Updateinput[type="file"] {
-    display: none;
-  }
-  .Updatelabel {
-    width: 300px !important;
-    margin: auto;
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    padding: 0 !important;
-  }
-  .Updatelabel button {
-    width: 300px !important;
-    padding: 0 !important;
-  }
-  .Updateimage-upload {
-    width: 250px !important;
-    /* height: 50px; */
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .MainContainer {
-      flex-direction: column-reverse;
-    }
-  }
+}

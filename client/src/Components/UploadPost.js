@@ -331,6 +331,7 @@ export class UploadPost extends Component {
              <MenuItem key={state.id} value={state}  > {state.name} </MenuItem>
            )}
                </TextField>
+
                <div style={{ height: 20 }} />
                <TextField
                  className="TextField"

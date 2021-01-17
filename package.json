@@ -4,18 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "build": "cd client && npm install && npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shubhankar-99/Vocal-For-Local.git"
+    "url": "git+https://github.com/jareehd/VOCAL-FOR-LOCAL.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shubhankar-99/Vocal-For-Local/issues"
+    "url": "https://github.com/jareehd/VOCAL-FOR-LOCAL/issues"
   },
-  "homepage": "https://github.com/shubhankar-99/Vocal-For-Local#readme",
+  "homepage": "https://github.com/jareehd/VOCAL-FOR-LOCAL#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "cors": "^2.8.5",
